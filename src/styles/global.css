@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Fira+Sans+Condensed:wght@800&family=Lilita+One&family=Montserrat:wght@800&family=Ultra&family=Karantina:wght@300&family=Source+Sans+Pro:wght@200&family=Pacifico&family=Indie+Flower&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "BurbankBigCondensed-Black";
+  src: local("BurbankBigCondensed-Black"),
+    url(../fonts/BurbankBigCondensed-Black.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "LeagueGothic-Regular";
+  src: local("LeagueGothic-Regular"),
+    url(../fonts/LeagueGothic-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "LeagueSpartan-Bold";
+  src: local("LeagueSpartan-Bold"),
+    url(../fonts/LeagueSpartan-Bold.otf) format("opentype");
+}
+
+/* =============================================================================
+| GLOBAL COMPONENTS
+============================================================================= */
+.custom-context-menu {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+.custom-context-menu li {
+  padding: 1em;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.custom-context-menu li:hover {
+  background: rgb(237, 237, 237);
+}
+
+.custom-context-menu .entry {
+  display: flex;
+  align-items: center;
+}
+
+.custom-context-menu .entry svg {
+  margin-right: 0.5em;
+}
+
+.StripeElement {
+  border: 1px solid #eee;
+  padding: 1em;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.StripeElement--invalid {
+  border: 1px solid red;
+}
+.cc-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin: 1em 0;
+}

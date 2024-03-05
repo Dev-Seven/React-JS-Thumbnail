@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "thumbnail-cc",
+    "thumbnail-cc-test": "thumbnail-cc-test",
+    "thumbnail-cc": "thumbnail-cc"
+  }
+}

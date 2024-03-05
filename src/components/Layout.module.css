@@ -1,0 +1,59 @@
+.main {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar {
+    height: 60px;
+    background: linear-gradient(90deg,#00c4cc,#7d2ae8);
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.logo {
+    color: rgb(189, 189, 189);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.lowerContent {
+    display: flex;
+    flex: 1;
+}
+
+.menuOne {
+    width: 5rem;
+    background: rgb(37, 37, 37);
+    z-index: 10;
+}
+
+.menuTwo {
+    background: grey;
+    position: relative;
+    z-index: 0;
+    min-width: 325px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px)
+}
+
+.editorContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    z-index: 1;
+    background: lightgrey;
+}
+
+.editorMenu {
+    background: white;
+    height: 50px;
+    padding: .25em 1em;
+    overflow: hidden;
+}
+
+.editorContent {
+    flex: 1;
+}

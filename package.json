@@ -1,0 +1,75 @@
+{
+  "name": "thumbnail.cc-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^1.0.3",
+    "@emotion/react": "^11.1.2",
+    "@emotion/styled": "^11.0.0",
+    "@samuelmeuli/font-manager": "^1.4.0",
+    "@stripe/react-stripe-js": "^1.2.0",
+    "@stripe/stripe-js": "^1.11.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "cropperjs": "^1.5.11",
+    "express": "^4.17.1",
+    "firebase": "^8.2.3",
+    "font-picker-react": "^3.5.2",
+    "framer-motion": "^2.9.5",
+    "konva": "^7.2.1",
+    "konva-react": "^0.1.0",
+    "mousetrap": "^1.6.5",
+    "multiselect-react-dropdown": "^1.6.11",
+    "polotno": "^0.18.1",
+    "primeicons": "^4.1.0",
+    "primereact": "^5.0.2",
+    "rc-upload": "^3.3.4",
+    "react": "^17.0.1",
+    "react-color": "^2.19.3",
+    "react-contenteditable": "^3.3.5",
+    "react-contextmenu": "^2.14.0",
+    "react-dom": "^17.0.1",
+    "react-firebase-hooks": "^2.2.0",
+    "react-icons": "^4.1.0",
+    "react-image-crop": "^8.6.6",
+    "react-konva": "^17.0.0-0",
+    "react-scripts": "4.0.1",
+    "react-select": "^4.3.0",
+    "react-spinners-css": "^1.2.2",
+    "react-stripe-checkout": "^2.6.3",
+    "react-transition-group": "^4.4.1",
+    "stripe": "^8.132.0",
+    "uid": "^2.0.0",
+    "use-image": "^1.0.6",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+.menuThreeContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.btn {
+    margin-right: .5em;
+}
+.menuItem {
+    display: flex;
+    align-items: center;
+}
+.menuItem svg {
+    margin-right: .75em;
+}
